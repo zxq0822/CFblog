@@ -59,8 +59,7 @@ function Footer() {
                             setDoubleClickTimes(doubleClickTimes + 1)
                         }
                     }}>
-                        © 2025/01/01 Powered by <a className='hover:underline' href="https://lizhi.us.kg" target="_blank">Qing</a><br>
-                       <span class="centered-text">知不可乎骤得,托遗响于悲风。</span>
+                        © 2025/01/01 Powered by <a className='hover:underline' href="https://lizhi.us.kg" target="_blank">Qing</a>
                     </span>
                     {config.get<boolean>('rss') && <>
                         <Spliter />
